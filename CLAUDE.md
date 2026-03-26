@@ -17,6 +17,12 @@
 記事のマークダウンファイルは `kyown/` ディレクトリに保存すること。
 ファイル名は `YYYYMMDD_ファイル名.md` の形式にすること（例: `20260326_git-introduction.md`）。
 
+記事を新規作成、または内容を編集した後は、以下の3ステップを一度に行うこと。
+
+1. コミットしてプッシュ
+2. mainブランチにマージ（PR作成 → マージ）
+3. 該当mdファイルのGitHubリンクを表示（`https://github.com/kyownruby/articles/blob/main/kyown/ファイル名` の形式）
+
 ---
 
 ## note記事執筆ルール
